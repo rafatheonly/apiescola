@@ -52,10 +52,14 @@ todas as provas.
 1. Deve-se baixar esse projeto do Github ou clonar o mesmo para a sua máquina usando o Git;
 2. Importa o mesmo, para a sua IDE de preferência, a usada foi o Eclipse;
 3. Atualizar e aplicar configurações do projeto;
-4. Executar a aplicação depois que todas as configurações forem feitas e baixadas;
+4. Configurar o arquivo https://github.com/rafatheonly/apiescola/blob/main/src/main/resources/application.properties conforme o seu banco de dados local;
+5. Executar a aplicação depois que todas as configurações forem feitas e baixadas.
 
 PARA SABER MAIS ACESSE O SITE: https://medium.com/@alex.girao/importar-um-projeto-maven-spring-boot-ea10078b2bde
 
 #### UTILIZANDO A APLICAÇÃO
 
-1. 
+- Depois de configurar os arquivos, o bd e baixar todas as dependências e executar o projeto, basta:
+    - Abrir as requisições desejas no navegador, conforme a lista exposta no Swagger UI: https://apiescola.herokuapp.com/swagger-ui.html#/alf45resource (Heroku);
+    - Se preferir, podem ser executadas como HTTP: https://apiescola.herokuapp.com/api/provas (Heroku);
+    - Ou localmente: http://localhost:8080/api/provas ou http://localhost:8080/swagger-ui.html;
