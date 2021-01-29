@@ -42,4 +42,20 @@ todas as provas.
 
 #### A APLICAÇÃO
 
-- 
+- A aplicação é uma API RESTful desenvolvida com o Spring Boot (Java);
+- Banco de dados PostgreSQL;
+- Swagger UI (para dar uma aparência melhor nos métodos, requisições e JSON pelo navegador de sua preferência);
+- Permite requisições em HTTP.
+
+#### COMO COMPILAR, EXECUTAR A APLICAÇÃO
+
+1. Deve-se baixar esse projeto do Github ou clonar o mesmo para a sua máquina usando o Git;
+2. Importa o mesmo, para a sua IDE de preferência, a usada foi o Eclipse;
+3. Atualizar e aplicar configurações do projeto;
+4. Executar a aplicação depois que todas as configurações forem feitas e baixadas;
+
+PARA SABER MAIS ACESSE O SITE: https://medium.com/@alex.girao/importar-um-projeto-maven-spring-boot-ea10078b2bde
+
+#### UTILIZANDO A APLICAÇÃO
+
+1. 
