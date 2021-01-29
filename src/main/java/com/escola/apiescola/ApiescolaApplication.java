@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ApiescolaApplication {
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(ApiescolaApplication.class, args);
 	}
 
