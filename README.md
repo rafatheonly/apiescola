@@ -75,6 +75,6 @@ PARA SABER MAIS ACESSE O SITE: https://medium.com/@alex.girao/importar-um-projet
 - GET: /api/provas — LISTA AS PROVAS;
 - POST: /api/resposta/{prova_id}/{aluno_id} — CADASTRA E CALCULA AS RESPOSTAS DA PROVA FEITA PELO ALUNO.
 
-**ATENÇÃO:** TODOS OS MÉTODOS ESTÃO DOCUMENTADOS NO ARQUIVO (https://github.com/rafatheonly/apiescola/blob/main/src/main/java/com/escola/apiescola/ApiescolaApplication.java) ONDE AS REQUISIÇÕES SÃO CHAMADAS! 
+**ATENÇÃO:** TODOS OS MÉTODOS ESTÃO DOCUMENTADOS NO ARQUIVO (https://github.com/rafatheonly/apiescola/blob/main/src/main/java/com/escola/apiescola/resources/AlfResource.java) ONDE AS REQUISIÇÕES SÃO CHAMADAS! 
 
 ###### A aplicação conta com a seguinte licença de uso: MIT!
