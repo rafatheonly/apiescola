@@ -60,6 +60,19 @@ PARA SABER MAIS ACESSE O SITE: https://medium.com/@alex.girao/importar-um-projet
 #### UTILIZANDO A APLICAÇÃO
 
 - Depois de configurar os arquivos, o bd e baixar todas as dependências e executar o projeto, basta:
-    - Abrir as requisições desejas no navegador, conforme a lista exposta no Swagger UI: https://apiescola.herokuapp.com/swagger-ui.html#/alf45resource (Heroku);
+    - Abrir as requisições desejas no navegador, conforme a lista: https://apiescola.herokuapp.com/swagger-ui.html#/alf45resource (Heroku);
     - Se preferir, podem ser executadas como HTTP: https://apiescola.herokuapp.com/api/provas (Heroku);
-    - Ou localmente: http://localhost:8080/api/provas ou http://localhost:8080/swagger-ui.html;
+    - Ou localmente: http://localhost:8080/api/provas ou http://localhost:8080/swagger-ui.html.
+
+##### REQUISIÇÕES
+
+- POST: /api/aluno — CADASTRA UM ALUNO;
+- GET: /api/aprovados — BUSCA (O)S ALUNO(S) APROVADO(S);
+- GET: /api/boletim/{aluno_id} — BUSCA A MEDIA FINAL DO ALUNO A PARTIR DO SEU ID;
+- POST: /api/boletim/{aluno_id} — CADASTRA A MEDIA FINAL NO BOLETIM;
+- POST: /api/gabarito/{prova_id} — CADASTRA UM GABARITO;
+- POST: /api/prova — CADASTRA UMA PROVA;
+- GET: /api/provas — LISTA AS PROVAS;
+- POST: /api/resposta/{prova_id}/{aluno_id} — CADASTRA E CALCULA AS RESPOSTAS DA PROVA FEITA PELO ALUNO.
+
+**ATENÇÃO:** TODOS OS MÉTODOS ESTÃO DOCUMENTADOS NO ARQUIVO (https://github.com/rafatheonly/apiescola/blob/main/src/main/java/com/escola/apiescola/ApiescolaApplication.java) ONDE AS REQUISIÇÕES SÃO CHAMADAS! 
