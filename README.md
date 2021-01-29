@@ -77,4 +77,8 @@ PARA SABER MAIS ACESSE O SITE: https://medium.com/@alex.girao/importar-um-projet
 
 **ATENÇÃO:** TODOS OS MÉTODOS ESTÃO DOCUMENTADOS NO ARQUIVO (https://github.com/rafatheonly/apiescola/blob/main/src/main/java/com/escola/apiescola/resources/AlfResource.java) ONDE AS REQUISIÇÕES SÃO CHAMADAS! 
 
+**OBSERVAÇÕES:** uma prova de múltipla escolha é formada por uma questão e suas múltiplas escolhas: a, b, c, d. Logo, eu não criei uma entidade para as opções das questões para ganhar tempo, fiz hipoteticamente as respostas da prova do aluno da seguinte maneira: 
+- Prova X — com 10 questões, logo um gabarito com as respostas correta para cada questão levando em consideração que a resposta correta é hipotética, ex.: questão 1 a resposta correta é a letra b! Da questão 2 a resposta é a letra c e por aí adiante...
+- A resposta do aluno também segue a mesma ideia, sendo assim não tem as opções para as questões e sim só o gabarito com as hipotéticas opções corretas para cada questão!
+
 ###### A aplicação conta com a seguinte licença de uso: MIT!
